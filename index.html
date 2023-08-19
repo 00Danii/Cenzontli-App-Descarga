@@ -1,252 +1,543 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cenzontli</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-	<meta charset="UTF-8" />
-	<title>Cenzontli</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="img/miniatura.jpg" />
+    <meta property="og:image:secure_url" content="img/miniatura.jpg" />
+    <meta property="og:image:type" content="image/jpcag" />
+    <meta property="og:image:alt" content="Cenzontli Nahuatl" />
 
-	<meta property="og:image" content="img/miniatura.jpg" />
-	<meta property="og:image:secure_url" content="img/miniatura.jpg" />
-	<meta property="og:image:type" content="image/jpcag" />
-	<meta property="og:image:alt" content="Cenzontli Nahuatl" />
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Cenzontli" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="icons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="icons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="icons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="icons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="icons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="icons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="icons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="icons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="icons/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="icons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icons/favicon-16x16.png"
+    />
 
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css" />
-	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/owl.carousel.css" />
-	<link rel="stylesheet" href="css/owl.theme.default.min.css" />
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css" />
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-		integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+    <!-- Main Favicon -->
+    <link rel="icon" type="image/pg" href="/Cenzontli-web/favicon/png" />
 
-	<!-- Estilos  -->
-	<link rel="stylesheet" href="css/style.css" />
-</head>
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
 
-<body>
-	<div id="page-wrap">
-		<!-- ==========================================================================================================
+    <!-- Estilos  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div id="page-wrap">
+      <!-- ==========================================================================================================
 		Inicio
 		========================================================================================================== -->
 
-		<div id="fh5co-hero-wrapper">
-			<nav class="container navbar navbar-expand-lg main-navbar-nav navbar-light">
-				<a class="navbar-brand" href="">Cenzontli</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse"
-					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+      <div id="fh5co-hero-wrapper">
+        <nav
+          class="container navbar navbar-expand-lg main-navbar-nav navbar-light"
+        >
+          <a class="navbar-brand" href="">Cenzontli</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav nav-items-center ml-auto mr-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#"
-								onclick="$('#fh5co-features').goTo();return false;">Características</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#"
-								onclick="$('#fh5co-download').goTo();return false;">Descargar</a>
-						</li>
-					</ul>
-					
-				</div>
-			</nav>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-items-center ml-auto mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Inicio <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  onclick="$('#fh5co-features').goTo();return false;"
+                  >Características</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  onclick="$('#fh5co-download').goTo();return false;"
+                  >Descargar</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-			<div class="container fh5co-hero-inner">
-				<h1 class="animated fadeIn wow" data-wow-delay="0.4s">
-					Ave de las 400 voces.
-				</h1>
-				<p class="animated fadeIn wow" data-wow-delay="0.67s">
-					"Cenzontli" es una aplicación de aprendizaje diseñada para adentrarte en la lengua náhuatl. Con una
-					interfaz intuitiva y contenido interactivo, "Cenzontli" te brinda la oportunidad de explorar la
-					gramática, vocabulario y pronunciación de una de las lenguas indígenas más importantes de México.
-				</p>
-				<button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s"
-					onclick="$('#fh5co-download').goTo();return false;">
-					Descargar
-				</button>
-				<button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s"
-					onclick="$('#fh5co-features').goTo();return false;">
-					Características
-				</button>
-				<img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s"
-					src="img/cenzontli-celular.png" alt="Smartphone" />
-			</div>
-		</div>
+        <div class="container fh5co-hero-inner">
+          <h1 class="animated fadeIn wow" data-wow-delay="0.4s">
+            Ave de las 400 voces.
+          </h1>
+          <p class="animated fadeIn wow" data-wow-delay="0.67s">
+            "Cenzontli" es una aplicación de aprendizaje diseñada para
+            sumergirte en las ricas y diversas lenguas indígenas de México. Con
+            una interfaz intuitiva y contenido interactivo, puedes adentrarte en
+            la gramática, vocabulario y pronunciación de algunas de las lenguas
+            originarias más significativas del país.
+          </p>
+          <button
+            class="btn btn-md download-btn-first wow fadeInLeft animated"
+            data-wow-delay="0.85s"
+            onclick="$('#fh5co-download').goTo();return false;"
+          >
+            Obtener
+          </button>
+          <button
+            class="btn btn-md features-btn-first animated fadeInLeft wow"
+            data-wow-delay="0.95s"
+            onclick="$('#fh5co-features').goTo();return false;"
+          >
+            Características
+          </button>
+          <img
+            class="fh5co-hero-smartphone animated fadeInRight wow"
+            data-wow-delay="1s"
+            src="img/cenzontli-inicio.png"
+            alt="Smartphone"
+          />
+        </div>
+      </div>
 
-		<!-- ==========================================================================================================
+      <!-- ==========================================================================================================
 		Capturas de pantalla
 		========================================================================================================== -->
 
-		<div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
-			<h1>Capturas de Pantalla</h1>
-			<small></small>
-			<div class="container fh5co-slider-inner">
-				<div class="owl-carousel owl-theme">
-					<div class="item"><img src="img/cenzontli-ejercicio-animales.png" alt="" /></div>
-					<div class="item"><img src="img/cenzontli-celular.png" alt="" /></div>
-					<div class="item"><img src="img/cenzontli-colores.png" alt="" /></div>
-					<div class="item"><img src="img/cenzontli-menu.png" alt="" /></div>
-					<div class="item"><img src="img/cenzontli-lecturas.png" alt="" /></div>
-				</div>
-			</div>
-		</div>
+      <div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
+        <h1>Capturas de Pantalla</h1>
+        <small></small>
+        <div class="container fh5co-slider-inner">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <img src="img/cenzontli-diccionario.png" alt="" />
+            </div>
+            <div class="item">
+              <img src="img/cenzontli-abejita.png" alt="" />
+            </div>
+            <div class="item">
+              <img src="img/cenzontli-cambio-de-idioma.png" alt="" />
+            </div>
+            <div class="item">
+              <img src="img/cenzontli-ejercicios-tototl.png" alt="" />
+            </div>
+            <div class="item">
+              <img src="img/cenzontli-aprender.png" alt="" />
+            </div>
+            <div class="item">
+              <img src="img/cenzontli-tema-negro.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
 
-		<!-- ==========================================================================================================
+      <!-- ==========================================================================================================
 		Caracteristicas
 		========================================================================================================== -->
 
-		<div class="curved-bg-div wow animated fadeIn" data-wow-delay="0.15s"></div>
-		<div id="fh5co-features" class="fh5co-features-outer">
-			<div class="container">
-				<div class="row fh5co-features-grid-columns">
-					<div class="col-sm-6 in-order-1 wow animated fadeInLeft" data-wow-delay="0.22s">
-						<div class="col-sm-image-container">
-							<img class="img-float-left" src="img/cenzontli-celular.png" alt="smartphone-1" />
-						</div>
-					</div>
+      <div
+        class="curved-bg-div wow animated fadeIn"
+        data-wow-delay="0.15s"
+      ></div>
+      <div id="fh5co-features" class="fh5co-features-outer">
+        <div class="container">
+          <div class="row fh5co-features-grid-columns">
+            <div
+              class="col-sm-6 in-order-1 wow animated fadeInLeft"
+              data-wow-delay="0.22s"
+            >
+              <div class="col-sm-image-container">
+                <img
+                  class="img-float-left"
+                  src="img\cenzontli-cambio-de-idioma.png"
+                  alt="smartphone-1"
+                />
+              </div>
+            </div>
+            <div
+              class="col-sm-6 in-order-2 sm-6-content wow animated fadeInRight"
+              data-wow-delay="0.22s"
+            >
+              <h1>Selección de Idioma</h1>
+              <p>
+                La función de cambio de idioma te permite seleccionar entre
+                diferentes lenguas indígenas para explorar su gramática,
+                vocabulario y pronunciación. En lugar de limitarte a un solo
+                idioma, "Cenzontli" te brinda la libertad de alternar entre
+                distintos idiomas originarios de México, como Náhuatl, Maya,
+                Otomí, Mixteco, Zapoteco, Totonaco, Huichol y Huasteco. Esta
+                flexibilidad te permite sumergirte en la riqueza de diversas
+                culturas y formas de expresión.
+              </p>
+            </div>
 
+            <div
+              class="col-sm-6 in-order-2 sm-6-content wow animated fadeInLeft"
+              data-wow-delay="0.22s"
+            >
+              <h1>Aprender</h1>
+              <p>
+                El apartado "Aprender" de nuestra aplicación contiene lecciones
+                estructuradas donde aprenderás la gramática, el vocabulario y la
+                pronunciación de manera fácil. Desde los conceptos básicos hasta
+                niveles más avanzados, cada lección te ofrece ejercicios
+                prácticos y recursos educativos para ayudarte a dominar el
+                idioma de tu preferencia a tu propio ritmo. Descubre la riqueza
+                de cada una de las lenguas indígenas con nuestras lecciones
+                interactivas en la palma de tu mano. ¡Explora el apartado
+                "Aprender" y despierta tu pasión por la diversidad lingüística
+                de México!
+              </p>
+            </div>
 
-					<div class="col-sm-6 in-order-2 sm-6-content wow animated fadeInRight" data-wow-delay="0.22s">
-						<h1>Lecciones</h1>
-						<p>
-							El apartado "Lecciones" de nuestra aplicación contiene lecciones estructuradas donde
-							aprenderás la gramática, el vocabulario y la pronunciación de manera fácil. Desde los
-							conceptos básicos hasta niveles más avanzados, cada lección te ofrece ejercicios prácticos y
-							recursos educativos para ayudarte a dominar el náhuatl a tu propio ritmo. Descubre la
-							riqueza de esta antigua lengua indígena con nuestras lecciones interactivas en la palma de
-							tu mano. ¡Explora el apartado "Lecciones" y despierta tu pasión por el náhuatl!
-						</p>
-					</div>
+            <div
+              class="col-sm-6 in-order-2 wow animated fadeInRight"
+              data-wow-delay="0.22s"
+            >
+              <img
+                class="img-float-right"
+                src="img/cenzontli-aprender.png"
+                alt="smartphone-2"
+              />
+            </div>
 
-					<div class="col-sm-6 in-order-3 sm-6-content wow animated fadeInLeft" data-wow-delay="0.22s">
-						<h1>Lecturas</h1>
-						<p>
-							El apartado de "Lecturas" de nuestra aplicación te sumerge en un mundo fascinante de textos
-							en náhuatl. Explora una amplia selección de cuentos, leyendas y textos tradicionales
-							cuidadosamente seleccionados para ayudarte a mejorar tu comprensión y fluidez en el idioma
-							náhuatl. Ya sea que estés interesado en la cultura, la historia o simplemente en disfrutar
-							de hermosas historias en náhuatl, este apartado te ofrece una experiencia de lectura
-							envolvente y enriquecedora. Sumérgete en las páginas digitales y déjate llevar por la
-							belleza y la magia de la lengua náhuatl.
-						</p>
+            <div
+              class="col-sm-6 in-order-5 wow animated fadeInLeft"
+              data-wow-delay="0.22s"
+            >
+              <div class="col-sm-image-container">
+                <img
+                  class="img-float-left"
+                  src="img/cenzontli-lecturas.png"
+                  alt="smartphone-3"
+                />
+              </div>
+            </div>
+            <div
+              class="col-sm-6 in-order-6 sm-6-content wow animated fadeInRight"
+              data-wow-delay="0.22s"
+            >
+              <h1>Lecturas</h1>
+              <p>
+                El apartado de lecturas en la aplicación "Cenzontli" te invita a
+                sumergirte en relatos culturales ricos y auténticos. A través de
+                estas lecturas, descubrirás historias que no solo mejoran tus
+                habilidades lingüísticas, sino que también te conectan con las
+                tradiciones y el patrimonio de las comunidades indígenas de
+                México. Explora una colección diversa de relatos mientras
+                expandes tu conocimiento lingüístico y cultural.
+              </p>
+            </div>
 
-					</div>
+            <div
+              class="col-sm-6 sm-6-content wow animated fadeInLeft"
+              data-wow-delay="0.22s"
+            >
+              <h1>Ejercicios</h1>
+              <p>
+                Dentro del apartado de "Ejercicios", te esperan desafíos
+                interactivos que consolidan tu dominio del idioma. Desde pruebas
+                de gramática hasta ejercicios de vocabulario, esta sección te
+                permite poner en práctica tus habilidades de una manera
+                envolvente. Y no olvides explorar el emocionante juego del
+                Ahorcado, una prueba de tu vocabulario y tu destreza para
+                adivinar palabras. ¡Aprende mientras te diviertes y fortalece
+                tus habilidades lingüísticas en el proceso!
+              </p>
+            </div>
 
-					<div class="col-sm-6 in-order-4 wow animated fadeInRight" data-wow-delay="0.22s">
-						<img class="img-float-right" src="img/cenzontli-lectura-luna-llena.png" alt="smartphone-2" />
-					</div>
+            <div
+              class="col-sm-6 wow animated fadeInRight"
+              data-wow-delay="0.22s"
+            >
+              <img
+                class="img-float-right"
+                src="img/cenzontli-ahorcado.png"
+                alt="smartphone-2"
+              />
+            </div>
 
-					<div class="col-sm-6 in-order-5 wow animated fadeInLeft" data-wow-delay="0.22s">
-						<div class="col-sm-image-container">
-							<img class="img-float-left" src="img/cenzontli-ejercicio-animales.png" alt="smartphone-3" />
-						</div>
-					</div>
-					<div class="col-sm-6 in-order-6 sm-6-content wow animated fadeInRight" data-wow-delay="0.22s">
-						<h1>Ejercicios</h1>
-						<p>
-							La parte de "Ejercicios" ofrece una plataforma interactiva para poner a prueba tus
-							conocimientos de náhuatl. Podrás practicar y fortalecer tus habilidades lingüísticas del
-							nahuatl.
-						</p>
-					</div>
+            <div
+              class="col-sm-6 in-order-5 wow animated fadeInLeft"
+              data-wow-delay="0.22s"
+            >
+              <div class="col-sm-image-container">
+                <img
+                  class="img-float-left"
+                  src="img/cenzontli-diccionario.png"
+                  alt="smartphone-3"
+                />
+              </div>
+            </div>
+            <div
+              class="col-sm-6 in-order-6 sm-6-content wow animated fadeInRight"
+              data-wow-delay="0.22s"
+            >
+              <h1>Diccionario</h1>
+              <p>
+                En el apartado de "Diccionario" de la aplicación, podrás
+                explorar un tesoro de palabras y significados en diferentes
+                idiomas indígenas. Este recurso enriquecedor te permite buscar y
+                descubrir el significado y la pronunciación de palabras en la
+                lengua que estás explorando. Ya sea que estés buscando
+                comprender el contexto de una lectura o simplemente ampliar tu
+                vocabulario, el diccionario te brinda acceso instantáneo a las
+                palabras y su interpretación. Aprovecha esta herramienta valiosa
+                para fortalecer tu comprensión de los idiomas y profundizar en
+                su riqueza cultural.
+              </p>
+            </div>
 
-					<div class="col-sm-6  sm-6-content wow animated fadeInLeft" data-wow-delay="0.22s">
-						<h1>Diccionario</h1>
-						<p>
-							El "Diccionario" de nuestra aplicación es tu compañero confiable para explorar y descubrir
-							el vasto vocabulario del náhuatl. Con una extensa base de datos de palabras y términos, este
-							diccionario te proporciona definiciones claras y concisas. Ya sea que necesites buscar una
-							palabra específica, ampliar tu vocabulario o simplemente explorar el rico léxico del
-							náhuatl, este apartado te ofrece una herramienta completa y fácil de usar. Sumérgete en el
-							mundo de las palabras náhuatl con nuestro diccionario en la app y enriquece tu dominio del
-							idioma.
-						</p>
+            <div
+              class="col-sm-6 sm-6-content wow animated fadeInLeft"
+              data-wow-delay="0.22s"
+            >
+              <h1>Tema Negro</h1>
+              <p>
+                Además, para aquellos que prefieren una estética más inmersiva y
+                suave para la vista, "Cenzontli" también ofrece el tema negro.
+                Al habilitar este modo, la interfaz adoptará una paleta de
+                colores oscuros, lo que no solo resultará cómodo para tus ojos
+                en entornos con poca luz, sino que también le dará un toque
+                elegante a la aplicación.
 
-					</div>
+                <br /><br />Los ajustes y el tema negro no solo brindan
+                comodidad visual y personalización, sino que también demuestran
+                el compromiso de "Cenzontli" en brindarte una experiencia de
+                aprendizaje adaptable y amigable con tus preferencias
+                individuales.
+              </p>
+            </div>
 
-					<div class="col-sm-6  wow animated fadeInRight" data-wow-delay="0.22s">
-						<img class="img-float-right" src="img/cenzontli-diccionario.png" alt="smartphone-2" />
-					</div>
-				</div>
-				<!-- row -->
-			</div>
-		</div>
+            <div
+              class="col-sm-6 wow animated fadeInRight"
+              data-wow-delay="0.22s"
+            >
+              <img
+                class="img-float-right"
+                src="img/cenzontli-tema-negro.png"
+                alt="smartphone-2"
+              />
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+      </div>
 
-
-		<!-- ==========================================================================================================
+      <!-- ==========================================================================================================
 		BOTTOM
         ========================================================================================================== -->
 
-		<div id="fh5co-download" class="fh5co-bottom-outer">
-			<div class="overlay">
-				<div class="container fh5co-bottom-inner">
-					<div class="row">
-						<div class="col-sm-6">
-							<h1>Obtener Cenzontli</h1>
-							<p>
-								Descubre las lecciones estructuradas, las lecturas cautivadoras, los ejercicios
-								prácticos y el diccionario completo que te ayudarán a sumergirte en la lengua y la
-								cultura náhuatl.
-							</p>
-							<br>
-							<a class="btn btn-md download-btn-first wow fadeInLeft animated"
-								style="color: #986a90; font-weight: 700;" href="app/cenzontli.apk">
-								Descargar
-							</a>
+      <div id="fh5co-download" class="fh5co-bottom-outer">
+        <div class="overlay">
+          <div class="container fh5co-bottom-inner">
+            <!-- <div class="row"> -->
+              <div class="col-sm-6">
+                <h1>Obtener Cenzontli</h1>
+                <!-- <p>
+								Explora idiomas y culturas originarias con recursos diseñados para mejorar tus habilidades. Conéctate con la autenticidad de cada lengua mientras aprendes y te empapas de la riqueza cultural.
+							</p> -->
+                <a
+                  class="wow fadeIn animated"
+                  data-wow-delay="0.25s"
+                  href="app/cenzontli.apk"
+                  ><img
+                    src="img/android.png"
+                    alt="Descargar para android"
+					width="250"
+                /></a>
+                <br /><br />
+				<a
+                  class="wow fadeIn animated"
+                  data-wow-delay="0.25s"
+                  href="Cenzontli-web/Cenzontli.html"
+				  target="_blank"
+                  ><img
+                    src="img/web.png"
+                    alt="Version online de la aplicacion"
+					width="250"
+                /></a>
 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 
-		<!-- ==========================================================================================================
+				<!-- <br /><br />
+				<a
+                  class="wow fadeIn animated"
+                  data-wow-delay="0.25s"
+                  href="Cenzontli-web/Cenzontli.html"
+				  target="_blank"
+                  ><img
+                    src="img/windows.png"
+                    alt="Version online de la aplicacion"
+					width="250"
+                /></a>
+
+				<br /><br />
+				<a
+                  class="wow fadeIn animated"
+                  data-wow-delay="0.25s"
+                  href="Cenzontli-web/Cenzontli.html"
+				  target="_blank"
+                  ><img
+                    src="img/linux.png"
+                    alt="Version online de la aplicacion"
+					width="250"
+                /></a>
+
+				<br /><br />
+				<a
+                  class="wow fadeIn animated"
+                  data-wow-delay="0.25s"
+                  href="Cenzontli-web/Cenzontli.html"
+				  target="_blank"
+                  ><img
+                    src="img/ios.png"
+                    alt="Version online de la aplicacion"
+					width="250"
+                /></a> -->
+
+				
+              </div>
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- ==========================================================================================================
 		FOOTER
         ========================================================================================================== -->
 
-		<footer class="footer-outer">
-			<div class="container footer-inner">
-				<div class="footer-three-grid wow fadeIn animated" data-wow-delay="0.66s">
-					<div class="column-1-3">
-						<h1>Cenzontli</h1>
-					</div>
-					<div class="column-2-3">
-						<nav class="footer-nav">
-							<ul>
-								<a href="#" onclick="$('#fh5co-hero-wrapper').goTo();return false;">
-									<li>Inicio</li>
-								</a>
-								<a href="#" onclick="$('#fh5co-features').goTo();return false;">
-									<li>Características</li>
-								</a>
-							</ul>
-						</nav>
-					</div>
-					
-				</div>
+      <footer class="footer-outer">
+        <div class="container footer-inner">
+          <div
+            class="footer-three-grid wow fadeIn animated"
+            data-wow-delay="0.66s"
+          >
+            <div class="column-1-3">
+              <h1>Cenzontli</h1>
+            </div>
+            <div class="column-2-3">
+              <nav class="footer-nav">
+                <ul>
+                  <a
+                    href="#"
+                    onclick="$('#fh5co-hero-wrapper').goTo();return false;"
+                  >
+                    <li>Inicio</li>
+                  </a>
+                  <a
+                    href="#"
+                    onclick="$('#fh5co-features').goTo();return false;"
+                  >
+                    <li>Características</li>
+                  </a>
+                </ul>
+              </nav>
+            </div>
+          </div>
 
-				<span class="border-bottom-footer"></span>
+          <span class="border-bottom-footer"></span>
 
-				<p class="copyright">
-					&copy; 2023 App. Derechos Reservados. Diseñado por Danii.
-				</p>
-			</div>
-		</footer>
-	</div>
+          <p class="copyright">
+            &copy; 2023 App. Derechos Reservados. Diseñado por Danii.
+          </p>
+        </div>
+      </footer>
+    </div>
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/owl.carousel.js"></script>
-	<script src="js/wow.min.js"></script>
-	<script src="js/main.js"></script>
-</body>
-
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
